@@ -1,7 +1,7 @@
-#include<studio.h>
+#include <studio.h>
 
 /**
- * main
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
