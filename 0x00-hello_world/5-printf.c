@@ -5,9 +5,9 @@
  *
  * Return: Always 0 (sucess)
  */
-int main (void)
+int main ()
 {
-	printf("with proper grammer, but the output is a piece of art/n")
-		return 0
+	printf("with proper grammer, but the output is a piece of art/n");
+	return 0;
 }
 
