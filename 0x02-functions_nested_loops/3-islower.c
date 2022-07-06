@@ -7,8 +7,20 @@
  * Return: 0 (success)
  * otherwise
  */
+int main(void)
+{
+	int r;
 
-int _islower(int c)
+	r = _islower('H');
+	_putchar(r + '0');
+	r = _islower('o');
+	_putchar(r + '0');
+	r = _islower(108);
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
+}
+/*int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
@@ -19,4 +31,4 @@ int _islower(int c)
 	}
 	
 	return (0);
-}
+}*/
