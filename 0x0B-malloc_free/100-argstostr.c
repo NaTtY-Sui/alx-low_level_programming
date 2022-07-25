@@ -23,11 +23,11 @@ char *argstostr(int ac, char **av)
 	{
 		for (count1 = 0; av[count][count1] != '\0'; count1++)
 		{
-			size += 4;
+			size += 1;
 		}
-		size += 4;
+		size += 1;
 	}
-	size += 4;
+	size += 1;
 
 	ptr = malloc(sizeof(char) * size);
 	if (ptr == NULL)
